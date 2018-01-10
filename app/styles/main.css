@@ -1,0 +1,10 @@
+#editor {
+   margin: auto;
+   width: 100%;
+   border: lightgray solid 1px;
+}
+
+#mdView {
+   background-color: #eeeeee;
+   border: black solid 1px;
+}

@@ -1,0 +1,25 @@
+<div ng-controller="MainCtrl">
+   <!-- <p id="editor" class="jumbotron" contenteditable="true" ng-model="text" ng-change="syncText()">
+
+   </p> -->
+   <div class="row">
+      <h1>Controlls</h1>
+      <label>
+         <input class="" type="checkbox" name="openPreview" id="openPreview" ng-model="preview">
+         Markdown Vorschau
+      </label>
+   </div>
+
+   <div class="row">
+
+
+      <div class="col-md-6">
+         <textarea name="editor" id="editor" rows="10" ng-model="text" ng-change="syncText()"></textarea>
+      </div>
+
+
+      <div id="mdView" class="col-md-6" ng-class="{ 'hide' : !preview }">
+
+      </div>
+   </div>
+</div>
